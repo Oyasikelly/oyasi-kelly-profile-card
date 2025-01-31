@@ -24,7 +24,7 @@ const ProfileCard = () => {
       <img
         src="/oyasi kelly.jpg"
         alt="Profile"
-        className="w-32 h-32 mx-auto mb-4 cursor-pointer object-cover rounded-lg hover:scale-105 transition-transform duration-300"
+        className="w-32 h-32 mx-auto mb-4 cursor-pointer object-cover object-[80%_20%] rounded-lg hover:scale-105 transition-transform duration-300"
         data-testid="profilePicture"
         onClick={() => setIsModalOpen(true)}
       />
