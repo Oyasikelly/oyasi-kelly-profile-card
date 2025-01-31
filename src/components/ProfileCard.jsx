@@ -16,7 +16,7 @@ const ProfileCard = () => {
 
   return (
     <motion.div
-      className="max-w-sm mx-auto bg-white shadow-lg rounded-xl p-6 text-center"
+      className="max-w-sm w-[80%] lg:w-auto mx-auto bg-gradient-to-br from-blue-100 to-purple-200 shadow-lg rounded-xl p-6 text-center"
       initial={{ opacity: 0, scale: 0.8 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
@@ -87,7 +87,7 @@ const ProfileCard = () => {
             <motion.img
               src="/oyasi kelly.jpg"
               alt="Full Profile"
-              className="w-auto h-[60%] object-cover rounded-lg shadow-lg"
+              className="w-[80%] lg:w-auto h-auto max-h-[80vh] w-auto max-w-[90vw]  object-cover rounded-lg shadow-lg"
               initial={{ scale: 0.8 }}
               animate={{ scale: 1 }}
               exit={{ scale: 0.8 }}
