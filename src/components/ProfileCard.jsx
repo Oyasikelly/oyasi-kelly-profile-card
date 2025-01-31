@@ -16,7 +16,7 @@ const ProfileCard = () => {
 
   return (
     <motion.div
-      className="max-w-sm w-[80%] lg:w-auto mx-auto bg-gradient-to-br from-blue-100 to-purple-200 shadow-lg rounded-xl p-6 text-center"
+      className="max-w-sm w-[80%] lg:w-auto mx-auto bg-white shadow-lg rounded-xl p-6 text-center"
       initial={{ opacity: 0, scale: 0.8 }}
       animate={{ opacity: 1, scale: 1 }}
       transition={{ duration: 0.5 }}
